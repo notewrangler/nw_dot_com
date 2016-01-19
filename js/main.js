@@ -37,7 +37,16 @@ $('document').ready(function(){
 		})
 		.mouseleave(function(){
 			$('#dot-trig').css({"font-size": "1.8rem", "color": "black"});
-			$('#dots').fadeOut(300);
+			$('#dots').fadeOut(200);
 		});
+
+		$('#app-trig').mouseenter(function(){
+			$('#work-trig').css({"font-size": "2.5rem", "color": "color: #E91E63"});
+			$('#react').fadeIn(400);
+		})
+		.mouseleave(function(){
+			$('#work-trig').css({"font-size": "1.8rem", "color": "black"});
+			$('#react').hide();
+	});
 
 });

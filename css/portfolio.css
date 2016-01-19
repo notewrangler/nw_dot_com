@@ -1,0 +1,16 @@
+ /*#portfolio h1, h4, p{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 0.2rem;
+	font-family: 'Arial';
+}*/
+
+.screenshot {
+	width: 680px;
+	height: 400px;
+
+}
+
+.cd_cover {
+	width: 1000px;
+	height: 445px;
+}

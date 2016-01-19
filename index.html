@@ -15,8 +15,9 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
   <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- CSS
@@ -24,6 +25,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,7 +40,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="row">
     <nav id="nav">
-      <h6 id="logo">Ralph Johnson</h6>
+      <img src="images/notewrangler.png" id="logo"/>
+      <p id="my-name">Ralph Johnson</p>
     </nav>
   </div>
   <!-- <div class="row">
@@ -46,24 +50,26 @@
     </div>
   </div> -->
 
-  <div class="container">
+  <div class="container" id="main-page">
 
     <div class="row">
-      <div class="five columns" style="margin-top: 20%">
+      <div class="five columns" style="margin-top: 15%">
         <img src="images/computer-mouse.png" id="mouse-pic"/>
         <h6 class="caption" id="me-trig">See Ralph.</h6>
         <h6 class="caption" id="code-trig">See Ralph develop web apps.</h6>
         <h6 class="caption" id="drum-trig">See Ralph operate the drums (so you can dance insanely).</h6>
         <h6 class="caption" id="dot-trig">See Ralph put dots on staff paper for other musicians to play.</h6>
         <div id="app-trig">
-          <h6 class="caption" >See some of Ralph's work here><span style="font-family: arial"> =></h6>
+          <h6 id="work-trig">See some of Ralph's work:</h6>
+          <a class="button button-primary" href="portfolio.html" id="navigate"> => HERE </a>
         </div>
       </div>
-      <div class="seven columns" style="margin-top: 20%">
+      <div class="seven columns" style="margin-top: 15%">
         <img src="images/rj-colored-pencil.jpeg" id="me"/>
         <img src="images/Computer-Boy_355.jpg" id="code-boy" />
         <img src="images/revue-music-awards-6.jpg" id="drum" />
         <img src="images/third-stone-screen.jpg" id="dots" />
+        <img src="images/upgraid-redux.png" id="react" />
       </div>
     </div><!--end of 'row' -->
 
