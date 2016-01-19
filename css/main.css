@@ -1,7 +1,11 @@
 body {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
   background-image: url('../images/concrete_seamless/concrete_seamless.png');
   background-repeat: repeat;
+  z-index: 0;
+}
+p {
+  font-size: 1.8rem;
 }
 
 #nav {
@@ -9,7 +13,7 @@ body {
   height: 60px;
   background: #00bcd4;
   position: fixed;
-  z-index: 3;
+  z-index: 100;
 
 }
 
@@ -31,12 +35,38 @@ body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+#links {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+}
+#about, #contact, #portLink {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#links a {
+  color: #fff;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2rem;
+}
+#links a:hover {
+  color: #7CFC00;
+}
+
+#main-page {
+  font-family: 'Shadows Into Light', cursive;
+}
+
 #mouse-pic {
 	width: 50px;
 	height: 50px;
 }
 
-#me-trig {
+#me-trig,
+#code-trig,
+#drum-trig,
+#dot-trig {
 	font-size: 1.8rem;
 }
 #me {
@@ -45,9 +75,9 @@ body {
 	border-radius: 40%;
 }
 
-#code-trig {
+/*#code-trig {
 	font-size: 1.8rem;
-}
+}*/
 #code-boy {
 	display: none;
 	width: 90%;
@@ -55,18 +85,18 @@ body {
   border-radius: 10%;
 }
 
-#drum-trig {
+/*#drum-trig {
 	font-size: 1.8rem;
-}
+}*/
 #drum {
 	display: none;
 	width: 100%;
 	border-radius: 10%;
 }
 
-#dot-trig {
+/*#dot-trig {
 	font-size: 1.8rem;
-}
+}*/
 #dots {
 	display: none;
 	width: 100%;

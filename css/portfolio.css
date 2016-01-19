@@ -2,7 +2,7 @@
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 1.8rem;
 	letter-spacing: 0.2rem;
-	z-index: -5;
+	z-index: 1;
 }
 
 #portfolio h1 {
@@ -10,6 +10,10 @@
 }
 #portfolio h4 {
 	font-size: 3.5rem;
+}
+
+#portfolio a {
+	z-index: 50;
 }
 .screenshot {
 	width: 680px;

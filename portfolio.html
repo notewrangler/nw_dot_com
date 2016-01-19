@@ -35,12 +35,17 @@
 </head>
 
 <body >
-	<div class="row">
-		<nav id="nav">
-			<a href="index.html"><img src="images/notewrangler.png" id="logo"/></a>
-			<p id="my-name">Ralph Johnson</p>
-		</nav>
-	</div>
+  <div class="row">
+    <nav id="nav">
+      <a href="index.html"><img src="images/notewrangler.png" id="logo"/></a>
+      <p id="my-name">Ralph Johnson</p>
+      <div id="links">
+        <p id="portLink"><a href="portfolio.html">Portfolio</a></p>
+        <p id="about"><a href="about.html">About</a></p>
+        <p id="contact"><a href="contact.html">Contact</a></p>
+      </div>
+    </nav>
+  </div>
 
 	<div class="container" id="portfolio" style="margin-top: 10%">
 			<h1>Notes (& code) Wrangled</h1>
@@ -81,7 +86,7 @@
 					<div >
 						<img src="images/Piccoli-Morsi-splash.png" class="screenshot"/>
 					</div>
-					<p><strong>Technologies used: HTML/CSS, jQuery.js, Mustache.js, AJAX</strong></p>
+					<p><strong>Technologies used: HTML/CSS, jQuery.js, Mustache.js, JSON api</strong></p>
 					<p><strong><a href="http://nice-arch.surge.sh">Web Site</a></strong></p>
 			</div>
 				<hr/>
@@ -92,7 +97,7 @@
 				<div >
 					<img src="images/hit-me-up.png" class="screenshot"/>
 				</div>
-				<p><strong>Technologies used: HTML/CSS, jQuery.js, Mustache.js, AJAX, Parse.com (remote database)</strong></p>
+				<p><strong>Technologies used: HTML/CSS, jQuery.js, Mustache.js, AJAX, Parse.com (cloud db)</strong></p>
 				<p><strong><a href="http://silent-police.surge.sh">Web Site</a></strong></p>
 			</div>
 			<hr/>
@@ -100,7 +105,8 @@
 			<div class="portfolio-items">
 				<h4>WeThePeople</h4>
 				<p>An assignment to create a landing page for a website. The blue button opens a modal iFrame, containing
-				a short story published on a science fiction website.</p>
+				a short story published on a science fiction website. Custom CSS tweaks keep the blue-grey text & the modal button
+        inside the white flag stripe at all viewport widths.</p>
 				<div >
 					<img src="images/wtp-splash.png" class="screenshot"/>
 				</div>
