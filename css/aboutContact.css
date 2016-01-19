@@ -2,3 +2,15 @@
 	font-size: 5.8rem;
 	letter-spacing: 0.2rem;
 }
+
+.social {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+
+}
+
+#about-me {
+	width: 100%;
+	border-radius: 10%;
+}
