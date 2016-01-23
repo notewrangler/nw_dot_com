@@ -15,12 +15,13 @@
 #portfolio a {
 	z-index: 50;
 }
+.refLinks {
+  margin-right: 20px;
+}
 .screenshot {
 	width: 680px;
 	height: 400px;
-
 }
-
 .cd_cover {
 	width: 1000px;
 	height: 445px;

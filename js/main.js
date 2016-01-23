@@ -17,7 +17,7 @@ $('document').ready(function(){
 		})
 		.mouseleave(function(){
 			$('#code-trig').css({"font-size": "1.8rem", "color": "black"});
-			$('#code-boy').fadeOut(200);
+			$('#code-boy').hide();
 		});
 
 		$('#drum-trig')
@@ -27,7 +27,7 @@ $('document').ready(function(){
 		})
 		.mouseleave(function(){
 				$('#drum-trig').css({"font-size": "1.8rem", "color": "black"});
-				$('#drum').fadeOut(200);
+				$('#drum').hide();
 		});
 
 		$('#dot-trig')
@@ -37,7 +37,7 @@ $('document').ready(function(){
 		})
 		.mouseleave(function(){
 			$('#dot-trig').css({"font-size": "1.8rem", "color": "black"});
-			$('#dots').fadeOut(200);
+			$('#dots').hide();
 		});
 
 		$('#app-trig').mouseenter(function(){
