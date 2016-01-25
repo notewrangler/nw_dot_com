@@ -2,7 +2,7 @@ $('document').ready(function(){
 
 		$('#me-trig')
 		.mouseenter(function(){
-			$('#me-trig').css({"font-size": "2.5rem", "color": "#00BCD4"});
+			$('#me-trig').css({"font-size": "2.1rem", "color": "#00BCD4"});
 			$('#me').fadeIn(400);
 			})
 		.mouseleave(function(){
@@ -12,7 +12,7 @@ $('document').ready(function(){
 
 		$('#code-trig')
 		.mouseenter(function(){
-			$('#code-trig').css({"font-size": "2.5rem", "color": "#00BCD4"});
+			$('#code-trig').css({"font-size": "2.1rem", "color": "#00BCD4"});
 			$('#code-boy').fadeIn(400);
 		})
 		.mouseleave(function(){
@@ -22,7 +22,7 @@ $('document').ready(function(){
 
 		$('#drum-trig')
 		.mouseenter(function(){
-			$('#drum-trig').css({"font-size": "2.5rem", "color": "#00BCD4"});
+			$('#drum-trig').css({"font-size": "2.1rem", "color": "#00BCD4"});
 			$('#drum').fadeIn(400);
 		})
 		.mouseleave(function(){
@@ -32,7 +32,7 @@ $('document').ready(function(){
 
 		$('#dot-trig')
 		.mouseenter(function(){
-			$('#dot-trig').css({"font-size": "2.5rem", "color": "#00BCD4"});
+			$('#dot-trig').css({"font-size": "2.1rem", "color": "#00BCD4"});
 			$('#dots').fadeIn(400);
 		})
 		.mouseleave(function(){
@@ -41,7 +41,7 @@ $('document').ready(function(){
 		});
 
 		$('#app-trig').mouseenter(function(){
-			$('#work-trig').css({"font-size": "2.5rem", "color": "color: #E91E63"});
+			$('#work-trig').css({"font-size": "2.1rem", "color": "color: #E91E63"});
 			$('#react').fadeIn(400);
 		})
 		.mouseleave(function(){
