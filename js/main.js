@@ -41,11 +41,11 @@ $('document').ready(function(){
 		});
 
 		$('#app-trig').mouseenter(function(){
-			$('#work-trig').css({"font-size": "2.1rem", "color": "color: #E91E63"});
+			$('#app-trig').css({"font-size": "2.1rem", "color": "color: ##00BCD4"});
 			$('#react').fadeIn(400);
 		})
 		.mouseleave(function(){
-			$('#work-trig').css({"font-size": "1.8rem", "color": "black"});
+			$('#app-trig').css({"font-size": "1.8rem", "color": "black"});
 			$('#react').hide();
 	});
 

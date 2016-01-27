@@ -3,6 +3,7 @@
 	font-size: 1.8rem;
 	letter-spacing: 0.2rem;
 	z-index: 1;
+  margin-bottom: 30px;
 }
 
 #portfolio h1 {
@@ -14,6 +15,39 @@
 
 #portfolio a {
 	z-index: 50;
+  color: #00BCD4;
+}
+#over-music {
+  padding-bottom: 50px;
+}
+#notes-wrangled a {
+
+  text-decoration: none;
+  color: inherit;
+}
+#code-wrangled {
+  display: inline-block;
+  margin-right: 25px;
+}
+#point-down {
+  display: inline-block;
+}
+#point-down img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: -15px;
+}
+#notes-wrangled {
+  display: inline-block;
+  margin-right: 25px;
+}
+#point-up {
+  display: inline-block;
+}
+#point-up img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: -15px;
 }
 .refLinks {
   margin-right: 20px;
@@ -26,8 +60,8 @@
   box-shadow: 10px 10px 5px #888;
 }
 .cd_cover {
-	width: 1000px;
-	height: 445px;
+	width: 680px;
+	/*height: 445px;*/
   -moz-box-shadow: 10px 10px 5px #888;
   -webkit-box-shadow: 10px 10px 5px #888;
   box-shadow: 10px 10px 5px #888;

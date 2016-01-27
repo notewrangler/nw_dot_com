@@ -3,20 +3,26 @@
 	letter-spacing: 0.2rem;
 }
 
+#social {
+	max-height: px;
+}
+
 .social {
 	position: relative;
 	display: inline-block;
-	width: 50px;
-	height: 50px;
-	margin-bottom: 0.4rem;
+	width: 40px;
+	height: 40px;
+	bottom: 0;
+	/*margin-bottom: 20px;*/
 	-moz-box-shadow: 10px 10px 5px #888;
 	-webkit-box-shadow: 10px 10px 5px #888;
 	box-shadow: 10px 10px 5px #888;
 }
 .social:hover {
 	opacity: 0.6;
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 42px;
+	vertical-align: baseline;
 }
 .social:active {
 	-moz-box-shadow: 10px 10px 5px #00bcd4;
@@ -24,11 +30,23 @@
 	box-shadow: 10px 10px 5px #00bcd4;
 
 }
-#vizualize:hover {
-	opacity: 0.9;
+#git {
+	margin-right: 15px;
+}
+
+#vizualize {
+	height: 40px;
 	-moz-box-shadow: 10px 10px 5px #888;
 	-webkit-box-shadow: 10px 10px 5px #888;
 	box-shadow: 10px 10px 5px #888;
+}
+#vizualize:hover {
+	opacity: 0.9;
+	height: 43px;
+}
+
+#mailform {
+	font-size: 1.9rem;
 }
 
 #about-me {
@@ -38,9 +56,11 @@
 	-webkit-box-shadow: 10px 10px 5px #888;
 	box-shadow: 10px 10px 5px #888;
 }
-/*#social #git {
-	width: 80px;
-	height: 80px;
-	position: absolute;
-	top: 1px;
-}*/
+#contact-links a {
+	color: #00BCD4;
+}
+#sender-name,
+#sender-email,
+#message {
+	width: 80%;
+}

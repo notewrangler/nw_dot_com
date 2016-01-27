@@ -49,12 +49,10 @@
 
 <div class="container" class="aboutContact">
 	<div class="row">
-		<div class="six columns" style="margin-top: 15%" id="contact-links">
-			<h1>Contact</h1>
-			<p><strong>email:</strong><a href="mailto:ralph@notewrangler.com"> ralph@notewrangler.com</a></p>
-			<p><strong>phone:</strong><a href="tel:702-782-3271"> (702)782-3271</a></p>
-
-      <div id="social">
+		<div class="six columns" style="margin-top: 15%" id="thanks">
+			<h2>Thanks for getting in touch!</h2>
+			<h4>I'll get back with you as soon as I can.</h4>
+			<div id="social">
         <a href="https://www.facebook.com/ralph.johnson.notewrangler"><img src="images/social/1446098703_Facebook.png" class="social"/></a>
         <a href="https://twitter.com/notewrangler" title="Follow Ralph on Twitter"><img src="images/social/1446098714_Twitter.png" class="social"/></a>
         <a href="https://www.linkedin.com/in/ralph-johnson-411505b?trk=nav_responsive_tab_profile" title="Ralph's LinkedIn Profile"><img src="images/social/linkedin-icon2.png" class="social"/></a>
@@ -62,44 +60,8 @@
         <a href="https://github.com/notewrangler" title="Visit Ralph's GitHub page"><img src="images/social/Github-icon.png"  class="social" id="git"/></a>
         <a href="http://vizualize.me/notewrangler?r=notewrangler" title="Ralph Johnson's infographic CV on vizualize.me"><img id='vizualize' src='http://vizualize.me/media/img/socialicons/viewmyviz.png' /></a>
       </div>
-
 		</div>
-    <div class="six columns" style="margin-top: 15% " id="contact-form">
-      <h3>...or Wrangle up a note...</h3>
-        <form id="mailform" action="http://formspree.io/noiseartist@gmail.com" method="POST">
-          <input type="text" name="sender-name" id="sender-name" placeholder="Your name"/><br>
-          <input type="text" name="_replyto" id="sender-email" placeholder="Your email"/><br>
-          <textarea name="message" id="message" placeholder="message" rows="10" cols="30"></textarea><br>
-          <input type="text" name="_gotcha" style="display:none" />
-          <input type="hidden" name="_next" value="http://notewrangler.com/thanks.html" />
-          <input class="button-primary" type="submit" value="Send"/>
-        </form>
-
-
-    </div>
 	</div>
 </div>
-<!-- <script>
-  $(document).ready(function(){
-    $('#mailform').on("submit", function(event) {
-  		event.preventDefault();
-  		$('#contact-form').toggleClass('hidden');
-  		$('#mailform').toggleClass('hidden');
-      $('#thanks').toggleClass('hidden');
-	  $.ajax({
-	      url: '//formspree.io/noiseartist@gmail.com',
-	      method: 'POST',
-	      data: {
-	      	name: $('#sender-name').val(),
-	      	email: $('#sender-email').val(),
-	      	message: $('#message').val()
-        },
-	      	dataType: 'json'
-      });
-    });
-  });
-</script> -->
-
 </body>
 </html>
-<!-- action="http://formspree.io/noiseartist@gmail.com" method="POST" -->
