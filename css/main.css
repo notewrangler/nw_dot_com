@@ -283,16 +283,45 @@ p {
 
 #vegas {
 	position: absolute;
-	margin-top: 3200px;
+	margin-top: 3300px;
 	right: 0;
-	background: black;
-	height: 200em;
+	background: #000;
+	height: 300em;
 	width: 50%;
 	color: #fff;
 	letter-spacing: 1.9px;
 }
+ /*#0CB5B2*/
 .language {
 	margin-left: 2em;
+	margin-top: 2em;
+}
+#vegas #lv-land img {
+	width: 50em;
+	height: 30em;
+	margin-left: 6em;
+	border-radius: 2%;
+}
+#vegas #code-bug img {
+	width: 50em;
+	height: 30em;
+	margin-left: 6em;
+	border-radius: 2%;
+}
+#vegas #grrr img {
+	width: 50em;
+	height: 30em;
+	margin-left: 6em;
+	border-radius: 2%;
+}
+#vegas #school img {
+	width: 30em;
+	height: 30em;
+	margin-left: 16em;
+	border-radius: 2%;
+}
+#sheepish {
+	margin-left: 15em;
 }
 /*#code-keys {
 	display: none;
