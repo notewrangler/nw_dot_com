@@ -3,9 +3,7 @@
 	letter-spacing: 0.2rem;
 }
 
-#social {
-	max-height: px;
-}
+
 
 .social {
 	position: relative;
@@ -14,14 +12,12 @@
 	height: 40px;
 	bottom: 0;
 	/*margin-bottom: 20px;*/
-	-moz-box-shadow: 10px 10px 5px #888;
-	-webkit-box-shadow: 10px 10px 5px #888;
-	box-shadow: 10px 10px 5px #888;
+	-moz-box-shadow: 10px 10px 5px #274676;
+	-webkit-box-shadow: 10px 10px 5px #274676;
+	box-shadow: 10px 10px 5px #274676;
 }
 .social:hover {
 	opacity: 0.6;
-	width: 40px;
-	height: 42px;
 	vertical-align: baseline;
 }
 .social:active {
@@ -36,13 +32,14 @@
 
 #vizualize {
 	height: 40px;
-	-moz-box-shadow: 10px 10px 5px #888;
-	-webkit-box-shadow: 10px 10px 5px #888;
-	box-shadow: 10px 10px 5px #888;
+	margin-right: -45px;
+	-moz-box-shadow: 10px 10px 5px #274676;
+	-webkit-box-shadow: 10px 10px 5px #274676;
+	box-shadow: 10px 10px 5px #274676;
 }
 #vizualize:hover {
-	opacity: 0.9;
-	height: 43px;
+	opacity: 0.6;
+	/*height: 43px;*/
 }
 
 #mailform {

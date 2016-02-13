@@ -43,61 +43,192 @@
     <nav id="nav">
       <a href="index.html"><img src="images/notewrangler.png" id="logo"/></a>
       <p id="my-name"><a href="about.html">Ralph Johnson</a></p>
+
       <div id="links">
+        <p id="cv-link"><a href="http://vizualize.me/notewrangler?r=notewrangler" title="Ralph Johnson's infographic CV on vizualize.me" target="_blank">Resume</a></p>
         <p id="portLink"><a href="portfolio.html">Portfolio</a></p>
         <p id="about"><a href="about.html">About</a></p>
         <p id="contact"><a href="contact.html">Contact</a></p>
       </div>
     </nav>
+
   </div>
-  <!-- <div class="row">
-    <div id="big-pic">
+
+  <div class="parallax-window" data-parallax="scroll"
+        data-image-src="images/tower-b.jpg"
+        data-position="top" data-bleed="10"
+        data-natural-width="1200"
+        data-natural-height="1600"
+        data-speed="0.2">
+        <div class="container" id="main-page">
+          <div class="row see">
+            <div class="seven columns" style="margin-top: 20%">
+            <div id="big-name-holder"
+                data-1400-start="margin-left: 0em;"
+                data-1450-start="margin-left: 12em;"
+                data-1600-start="margin-left: 17em;"
+                data-1750-start="margin-left: 40em;"
+                data-1900-start="margin-left: 60em;"
+                data-2100-start="margin-left: 60em;"
+                data-2300-start="margin-left: 23em;"
+                data-2400-start="margin-left: 14em;"
+                data-2500-start="margin-left: 14em;"
+                data-2600-start="margin-left: 14em;"
+                data-3050-start="margin-left: 14em;"
+                data-3200-start="margin-left: 14em;"
+                data-4200-start="margin-left: 0em;">
+              <h1 id="big-name">Ralph Johnson</h1>
+            </div>
+
+            </div>
+            <div class="five columns" id="right-half" style="margin-top:70%">
+              <div id="job-title"
+                  data-100-start="opacity:1"
+                  data-650-start=" opacity:0"
+                  data-anchor-target="#web-developer">
+                <h2 id="web-developer">Web Developer</h2>
+              </div>
+            </div> <!-- end of 'five columns' -->
+          </div><!--end of 'row' -->
+    </div> <!--end of 'container' -->
+
+
+    <div  id="me-row"
+      data-200-start="opacity:0; transform:translateX(-100%)"
+      data-350-start="opacity:0.6; transform:translateX(-30%)"
+      data-450-start="opacity:1; transform:translateX(0%)"
+      data-750-start="opacity:1"
+      data-850-start="opacity:1; transform:translateX(0%)"
+      data-900-start="opacity:0;"
+      data-anchor-target="#me-row"
+    >
+      <img src="images/IronYard-twenty.jpg" id="me"/>
+      <h1 id="me-caption">This Guy.</h1>
+    </div>
+
+    <div id="me-row-b"
+        data-850-start="opacity:0; transform:translateX(100%)"
+        data-950-start="opacity:0; transform:translateX(50%)"
+        data-1050-start="opacity:1; transform:translateX(0%)"
+        data-1350-start="opacity:1;"
+        data-1450-start="opacity:0"
+        data-anchor-target="#me-row"
+    ><h3 id="me2-caption">...geeking out in the secret laboratory...</h3>
+      <img id="me2" src="images/rj-comp-kb.jpg" />
+    </div>
+    <div id="screen-dots"
+        data-1350-start="opacity: 0; transform:scale(0)"
+        data-1450-start="opacity: 1; transform:scale(3)"
+        data-1750-start="opacity: 1; transform:scale(3)"
+        data-2150-start="opacity:0; transform:scale(0)">
+      <h6 id="dots-text">...for years, hacked dots like this...</h6>
+      <img src="images/third-stone-screen.jpg" id="dot-screen">
+    </div>
+    <div id="drill-dots"
+        data-1500-start="opacity: 0; transform:scale(0)"
+        data-1600-start="opacity: 1; transform:scale(3)"
+        data-2000-start="opacity: 1; transform:scale(3)"
+        data-2400-start="opacity:0; transform:scale(0)">
+      <h6 id="drill-text">...to help groups like this...</h6>
+      <img src="images/bands/pcep-1990.jpg" id="drill-screen">
+    </div>
+    <div id="band-kids"
+        data-1750-start="opacity: 0; transform:scale(0)"
+        data-1850-start="opacity: 1; transform:scale(3)"
+        data-2450-start="opacity: 1; transform:scale(3)"
+        data-2850-start="opacity:0; transform:scale(0)">
+      <h6 id="kids-text">...achieve goals like this...</h6>
+      <img src="images/bands/boa-champs.jpg" id="kids-screen"></br>
+      <p id="boa">(Bands of America&#174 Grand National Champions)</p>
+    </div>
+    <div id="band-cds"
+        data-2450-start="opacity: 0; transform:scale(0)"
+        data-2700-start="opacity: 1; transform:scale(1)"
+        data-3000-start="opacity: 1"
+        data-3200-start="opacity:0">
+
+        <ul id="cd-row">
+          <li class="cd-cover" ><img src="images/cds/mojo.gif"</li>
+          <li class="cd-cover" ><img src="images/cds/blueprint.jpg"</li>
+          <li class="cd-cover" ><img src="images/cds/calland.jpg"</li>
+          <li class="cd-cover" ><img src="images/cds/flip-city.gif"</li>
+          <li class="cd-cover" ><img src="images/cds/test-of-time.jpg"</li>
+          <li class="cd-cover" ><img src="images/cds/cook-books.jpg"</li>
+          <li class="cd-cover" ><img src="images/cds/wmunion.jpg"</li>
+          <li class="cd-cover" ><img src="images/cds/further-to-fly.jpg"</li>
+        </ul>
+        <h1 class="cds-text">...in the mean time,</h1>
+        <h1 class="cds-text">recorded on CDs like these...</h1>
+    </div>
+
+    <div id="band-guys"
+    data-3050-start="opacity: 0; transform:scale(0)"
+    data-3300-start="opacity: 1; transform:scale(1)"
+    data-3800-start="opacity: 1"
+    data-4000-start="opacity:0">
+      <ul>
+        <li class="band-pic" id="ijo-one"><img src="images/bands/band4.jpg"</li>
+        <li class="band-pic" id="flip"><img src="images/bands/FC-Scottys-in.jpg"</li>
+        <li class="band-pic" id="ijo-two"><img src="images/bands/color_ijo.jpg"</li>
+        <li class="band-pic" id="wmu"><img src="images/bands/wmu-urban.jpg"</li>
+      </ul>
+      <h1>...with guys like these...</h1>
+    </div>
+
+    <div id="vegas">
+      <h3>...landed in Vegas...</h3>
+      <h3>...caught the code bug...</h3>
+      <h3>...learned</h3>
+      <h5 class="language">HTML</h5>
+      <h5 class="language">CSS</h5>
+      <h5 class="language">Ruby on Rails</h5>
+      <h5 class="language">Javascript</h5>
+      <h5 class="language">jQuery</h5>
+      <h5 class="language">PhP</h5>
+      <h5 class="language">Mustache.js</h5>
+      <h5 class="language">Backbone.js</h5>
+      <h5 class="language">React.js</h5>
+      <h5 class="language">Reflux.js</h5>
+      <h5 class="language">Redux.js</h5>
+      <h5 class="language">parallax.js</h5>
+      <h3 class="language">...</h3>
+      <h3 class="language">...</h3>
+      <h5 class="language">...well, and skrollr.js...</h5>
+      <h5 class="language">...as you can tell.</h5>
 
     </div>
-  </div> -->
 
-  <div class="container" id="main-page">
 
-    <div class="row see">
-      <div class="six columns" style="margin-top: 15%">
-        <img src="images/computer-mouse.png" id="mouse-pic"/>
-        <h6 class="caption" id="me-trig"><a href="about.html">See Ralph.</a></h6>
-        <h6 class="caption" id="code-trig"><a href="portfolio.html">See Ralph develop web apps.</a></h6>
-        <h6 class="caption" id="drum-trig"><a href="portfolio.html#music">See Ralph operate the drums (so you can dance insanely).</a></h6>
-        <h6 class="caption" id="dot-trig"><a href="portfolio.html#music">See Ralph put dots on staves for other musicians to play.</a></h6>
-        <h6 id="app-trig"><a href="portfolio.html">See some of Ralph's work => HERE</a></h6>
+</div><!-- <end of "parallax-window"> -->
 
-      </div>
-      <div class="six columns" style="margin-top: 15%">
-        <img src="images/rj-colored-pencil.jpeg" id="me"/>
-        <img src="images/teclado.jpg" id="code-boy" />
-        <img src="images/revue-music-awards-6.jpg" id="drum" />
-        <img src="images/third-stone-screen.jpg" id="dots" />
-        <img src="images/upgraid-redux.png" id="react" />
-      </div>
-    </div><!--end of 'row' -->
+
+
+
+
+
+
+
+              <!-- <img src="images/teclado.jpg" id="code-keys" />
+              <img src="images/revue-music-awards-6.jpg" id="drum" />
+              <img src="images/third-stone-screen.jpg" id="dots" />
+              <img src="images/upgraid-redux.png" id="react" /> -->
+
+  <!-- </div> <!-- end of 'slider' -->
     <div id="social">
-      <a href="https://www.facebook.com/ralph.johnson.notewrangler"><img src="images/social/1446098703_Facebook.png" class="social"/></a>
-      <a href="https://twitter.com/notewrangler" title="Follow Ralph on Twitter"><img src="images/social/1446098714_Twitter.png" class="social"/></a>
-      <a href="https://www.linkedin.com/in/ralph-johnson-411505b?trk=nav_responsive_tab_profile" title="Ralph's LinkedIn Profile"><img src="images/social/linkedin-icon2.png" class="social"/></a>
-      <a href="https://medium.com/@notewrangler" title="Read Ralph's Blog on Medium.com"><img src="images/social/blog.png" class="social"></a>
-      <a href="https://github.com/notewrangler" title="Visit Ralph's GitHub page"><img src="images/social/Github-icon.png"  class="social" id="git"/></a>
-      <a href="http://vizualize.me/notewrangler?r=notewrangler" title="Ralph Johnson's infographic CV on vizualize.me"><img id='vizualize' src='http://vizualize.me/media/img/socialicons/viewmyviz.png' /></a>
+      <a href="https://www.facebook.com/ralph.johnson.notewrangler" target="_blank"><img src="images/social/1446098703_Facebook.png" class="social"/></a>
+      <a href="https://twitter.com/notewrangler" title="Follow Ralph on Twitter" target="_blank"><img src="images/social/1446098714_Twitter.png" class="social"/></a>
+      <a href="https://www.linkedin.com/in/ralph-johnson-411505b?trk=nav_responsive_tab_profile" title="Ralph's LinkedIn Profile" target="_blank"><img src="images/social/linkedin-icon2.png" class="social"/></a>
+      <a href="https://medium.com/@notewrangler" title="Read Ralph's Blog on Medium.com" target="_blank"><img src="images/social/blog.png" class="social"></a>
+      <a href="https://github.com/notewrangler" title="Visit Ralph's GitHub page" target="_blank"><img src="images/social/Github-icon.png"  class="social" id="git"/></a>
+      <a href="http://vizualize.me/notewrangler?r=notewrangler" title="Ralph Johnson's infographic CV on vizualize.me" target="_blank"><img id='vizualize' src='http://vizualize.me/media/img/socialicons/viewmyviz.png' /></a>
     </div>
-
-  </div> <!--end of 'container' -->
-
-
-
-
-
-
-
-
+</div> <!--end of 'page-wrapper' -->
 
 
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/skrollr.min.js"></script>
   <script src="js/main.js"></script>
 
 <!-- End Document
