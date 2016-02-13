@@ -1,11 +1,40 @@
 body {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-  background-image: url('../images/45degreee_fabric/45degreee_fabric.png');
-  background-repeat: repeat;
-  z-index: 0;
+	opacity: 90;
 }
 p {
   font-size: 1.8rem;
+}
+.page-wrapper {
+	background-image: url('../images/tower-b.jpg');
+  background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	margin-top: 50px;
+	height: 9500px;
+  z-index: 0;
+}
+.parallax-window {
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	margin-top: 50px;
+	min-height: 9500px;
+	opacity: 0.8;
+  z-index: -1;
+
+}
+
+/*#big-pic {
+	width: 100%;
+}*/
+#social {
+	display: inline-block;
+	position: fixed;
+	margin-right: 0;
+	padding-right: 0;
+	top: 850px;
+	right: 80px;
 }
 
 #nav {
@@ -27,11 +56,18 @@ p {
 #logo:hover {
 	opacity: 0.7;
 }
-
+.see {
+	position: relative;
+}
+.see a {
+	text-decoration: none;
+	color: inherit;
+}
 #my-name {
   display: inline-block;
 	margin-left: 2rem;
-  vertical-align: middle;
+  vertical-align: top;
+	margin-top: 15px;
 	font-size: 2.5rem;
   letter-spacing: 0.2rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -47,9 +83,9 @@ p {
 #links {
   position: absolute;
   top: 1.7rem;
-  right: 3rem;
+  right: 5rem;
 }
-#about, #contact, #portLink {
+#cv-link, #about, #contact, #portLink  {
   display: inline-block;
   margin-left: 20px;
 }
@@ -57,44 +93,237 @@ p {
 #links a {
   color: #fff;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
+	letter-spacing: 1.9px;
 }
 #links a:hover {
   color: #7CFC00;
 }
 
 #main-page {
-  font-family: 'Shadows Into Light', cursive;
+	z-index: 3;
+	letter-spacing: 1.9px;
 }
 
-#mouse-pic {
-	width: 50px;
-	height: 50px;
+#big-name {
+	color: #CFE2F7;
+	font-size: 6rem;
+	position: fixed;
+	margin-left: 13rem;
+	z-index: 5;
 }
-.see a {
-	text-decoration: none;
-	color: inherit;
+#job-title {
+	position:absolute;;
+	top: 600px;
+	right: 50px;
+	width: 250px;
 }
-#me-trig,
-#code-trig,
-#drum-trig,
-#dot-trig,
-#app-trig {
-	font-size: 1.8rem;
-}
-#me {
-	display: none;
-	width: 80%;
-	border-radius: 10%;
-	-moz-box-shadow: 10px 10px 5px #888;
-	-webkit-box-shadow: 10px 10px 5px #888;
-	box-shadow: 10px 10px 5px #888;
+#web-developer {
+	position: absolute;
+	font-size: 4rem;
+	letter-spacing: 1.9px;
+	color: #fff;
 }
 
-/*#code-trig {
-	font-size: 1.8rem;
-}*/
-#code-boy {
+#me-row {
+	display: inline-block;
+	position: relative;
+	width: 61%;
+	height: 40em;
+	background: #000;
+	opacity: 0.01;
+	color:#fff;
+	z-index: 2;
+}
+
+#me-caption {
+	display: inline;
+	position: absolute;
+  bottom: 0px;
+
+}
+#me-row #me {
+	display: inline-block;
+	width: 27em;
+	height: 40em;
+	opacity: 1;
+}
+#me-row-b {
+	width: 79%;
+	position: absolute;
+	right: 0;
+	margin-top: 350px;
+	height: 40em;
+	background: #000;
+	opacity: 0.01;
+	color:#fff;
+	z-index: 2;
+}
+#me-row-b #me2 {
+	display: inline;
+	position: absolute;
+	right:0;
+	width: 54em;
+	height: 40em;
+	vertical-align: baseline;
+}
+#me-row-b #me2-caption {
+	display: inline;
+	position: absolute;
+	bottom: 0;
+	left: 1em;
+}
+
+#screen-dots {
+	position: absolute;
+	margin-top: 800px;
+	left: 15em;
+	border-radius: 50%;
+	width: 17em;
+	height: 17em;
+	background: black;
+	color: white;
+	text-align: center;
+}
+#dots-text, #drill-text, #kids-text {
+	margin-top: 2em;
+}
+#dot-screen, #drill-screen, #kids-screen {
+	position: absolute;
+	bottom: 4em;
+	left: 4.5em;
+	width: 9em;
+	height: 6.5em;
+}
+#drill-dots {
+	position: absolute;
+	margin-top: 1200px;
+	left: 50em;
+	border-radius: 50%;
+	width: 17em;
+	height: 17em;
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+
+#band-kids {
+	position: absolute;
+	margin-top: 1650px;
+	left: 80em;
+	border-radius: 50%;
+	width: 17em;
+	height: 17em;
+	background: black;
+	color: white;
+	text-align: center;
+}
+#boa {
+	margin-top: 6.3em;
+	font-size: 0.7rem;
+}
+#band-cds {
+	position: absolute;
+	margin-top: 2000px;
+	background: black;
+	height: 40em;
+	width: 100%;
+	color: #fff;
+	letter-spacing: 1.9px;
+}
+#cd-row {
+	margin-left: 4.5em;
+}
+.cd-cover {
+	display: inline-block;
+}
+
+.cd-cover img {
+	width: 13em;
+	height: 13em;
+	margin: 20px 5px;
+}
+
+#band-guys {
+	position: absolute;
+	margin-top: 2600px;
+	background: black;
+	height: 40em;
+	width: 100%;
+	color: #fff;
+	letter-spacing: 1.9px;
+}
+
+.band-pic {
+	display: inline-block;
+	margin: 2em;
+}
+
+#ijo-one img{
+	display: inline-block;
+	width: 25em;
+	height: 20em;
+}
+#flip img{
+	display: inline-block;
+	width: 40em;
+	height: 20em;
+}
+#ijo-two img{
+	display: inline-block;
+	width: 18em;
+	height: 20em;
+}
+#wmu img{
+	display: inline-block;
+	width: 25em;
+	height: 20em;
+}
+
+#vegas {
+	position: absolute;
+	margin-top: 3300px;
+	right: 0;
+	background: #000;
+	height: 300em;
+	width: 50%;
+	color: #fff;
+	letter-spacing: 1.9px;
+}
+ /*#0CB5B2*/
+.language {
+	margin-left: 2em;
+	margin-top: 2em;
+}
+#vegas #lv-land img {
+	width: 50em;
+	height: 30em;
+	margin-left: 6em;
+	border-radius: 2%;
+}
+#vegas #code-bug img {
+	width: 50em;
+	height: 30em;
+	margin-left: 6em;
+	border-radius: 2%;
+}
+#vegas #grrr img {
+	width: 50em;
+	height: 30em;
+	margin-left: 6em;
+	border-radius: 2%;
+}
+#vegas #school img {
+	width: 30em;
+	height: 30em;
+	margin-left: 16em;
+	border-radius: 2%;
+}
+#sheepish {
+	margin-left: 15em;
+}
+/*#code-keys {
 	display: none;
 	width: 90%;
 	height: 300px;
@@ -108,19 +337,19 @@ p {
 /*#drum-trig {
 	font-size: 1.8rem;
 }*/
-#drum {
+/*#drum {
 	display: none;
-	width: 90%;
+	width: 100%;
 	border-radius: 10%;
 	-moz-box-shadow: 10px 10px 5px #888;
 	-webkit-box-shadow: 10px 10px 5px #888;
 	box-shadow: 10px 10px 5px #888;
-}
+}*/
 
 /*#dot-trig {
 	font-size: 1.8rem;
 }*/
-#dots {
+/*#dots {
 	display: none;
 	width: 90%;
 	height: 300px;
@@ -137,8 +366,8 @@ p {
 
 #app-trig h6 {
 	font-size: 1.8rem;
-}
-#react {
+}*/
+/*#react {
   display: none;
   width: 90%;
 	height: 300px;
@@ -150,7 +379,4 @@ p {
 #navigate {
   font-size: 1.2rem;
   width: 220px;
-}
-
-
-/*font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}*/
