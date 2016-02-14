@@ -171,7 +171,7 @@ p {
 	display: inline;
 	position: absolute;
 	bottom: 0;
-	left: 1em;
+	left: 0;
 }
 
 #screen-dots {
@@ -262,23 +262,23 @@ p {
 
 #ijo-one img{
 	display: inline-block;
-	width: 25em;
-	height: 20em;
+	width: 20em;
+	height: 15em;
 }
 #flip img{
 	display: inline-block;
-	width: 40em;
-	height: 20em;
+	width: 30em;
+	height: 15em;
 }
 #ijo-two img{
 	display: inline-block;
-	width: 18em;
-	height: 20em;
+	width: 14em;
+	height: 15em;
 }
 #wmu img{
 	display: inline-block;
-	width: 25em;
-	height: 20em;
+	width: 20sem;
+	height: 15em;
 }
 
 #vegas {
