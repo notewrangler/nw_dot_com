@@ -1,33 +1,21 @@
 body {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	opacity: 90;
+
 }
 p {
   font-size: 1.8rem;
 }
-.page-wrapper {
-	background-image: url('../images/tower-b.jpg');
-  background-repeat: no-repeat;
-	background-position: top;
-	background-size: cover;
-	margin-top: 50px;
-	height: 9500px;
-  z-index: 0;
-}
+
 .parallax-window {
 	background-repeat: no-repeat;
 	background-position: top;
-	background-size: cover;
+	background-size: contain;
 	margin-top: 50px;
-	min-height: 9500px;
-	opacity: 0.8;
-  z-index: -1;
+	min-height: 6500px;
+	opacity: 0.9;
+  z-index: 1;
 
 }
-
-/*#big-pic {
-	width: 100%;
-}*/
 #social {
 	display: inline-block;
 	position: fixed;
@@ -99,14 +87,20 @@ p {
 #links a:hover {
   color: #7CFC00;
 }
-
+#scroll-prompt {
+	padding-top: 2em;
+	margin: auto;
+	line-height: 60%;
+	text-align: center;
+	color: yellow;
+}
 #main-page {
 	z-index: 3;
 	letter-spacing: 1.9px;
 }
 
 #big-name {
-	color: #CFE2F7;
+	color: #FCFAC2;
 	font-size: 6rem;
 	position: fixed;
 	margin-left: 13rem;
@@ -262,22 +256,22 @@ p {
 
 #ijo-one img{
 	display: inline-block;
-	width: 25em;
+	width: 25rem;
 	height: 20em;
 }
 #flip img{
 	display: inline-block;
-	width: 40em;
+	width: 40rem;
 	height: 20em;
 }
 #ijo-two img{
 	display: inline-block;
-	width: 18em;
+	width: 18rem;
 	height: 20em;
 }
 #wmu img{
 	display: inline-block;
-	width: 25em;
+	width: 25rem;
 	height: 20em;
 }
 
@@ -286,7 +280,7 @@ p {
 	margin-top: 3300px;
 	right: 0;
 	background: #000;
-	height: 300em;
+	height: 320em;
 	width: 50%;
 	color: #fff;
 	letter-spacing: 1.9px;
@@ -320,63 +314,32 @@ p {
 	margin-left: 16em;
 	border-radius: 2%;
 }
-#sheepish {
-	margin-left: 15em;
+#skrollr {
+	margin-top: 15em;
+	margin-left: 3em;
 }
-/*#code-keys {
-	display: none;
-	width: 90%;
-	height: 300px;
-	padding-right: 10px;
-  border-radius: 10%;
-	-moz-box-shadow: 10px 10px 5px #888;
-	-webkit-box-shadow: 10px 10px 5px #888;
-	box-shadow: 10px 10px 5px #888;
+#skrollr img {
+	margin-left: 1em;
+	width: 1em;
+	height: 1em;
 }
 
-/*#drum-trig {
-	font-size: 1.8rem;
-}*/
-/*#drum {
-	display: none;
+#bottom-row {
+	margin-top: 680em;
 	width: 100%;
-	border-radius: 10%;
-	-moz-box-shadow: 10px 10px 5px #888;
-	-webkit-box-shadow: 10px 10px 5px #888;
-	box-shadow: 10px 10px 5px #888;
-}*/
-
-/*#dot-trig {
-	font-size: 1.8rem;
-}*/
-/*#dots {
-	display: none;
-	width: 90%;
-	height: 300px;
-	border-radius: 10%;
-	-moz-box-shadow: 10px 10px 5px #888;
-	-webkit-box-shadow: 10px 10px 5px #888;
-	box-shadow: 10px 10px 5px #888;
+	height: 60em;
+	background: black;
+	color: yellow;
+	z-index: 20;
 }
-
-#app-trig {
-  height: 40px;
+.bottom {
+	margin-top: 5em;
 }
-
-
-#app-trig h6 {
-	font-size: 1.8rem;
-}*/
-/*#react {
-  display: none;
-  width: 90%;
-	height: 300px;
-  border-radius: 10%;-moz-box-shadow: 10px 10px 5px #888;
-	-webkit-box-shadow: 10px 10px 5px #888;
-	box-shadow: 10px 10px 5px #888;
+#me-small {
+	width: 18em;
+	height: 25em;
 }
-
-#navigate {
-  font-size: 1.2rem;
-  width: 220px;
-}*/
+.bottom-photo {
+	width: 30em;
+	height: 20em;
+}

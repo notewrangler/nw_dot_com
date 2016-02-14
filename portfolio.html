@@ -40,160 +40,207 @@
     <nav id="nav">
       <a href="index.html"><img src="images/notewrangler.png" id="logo"/></a>
       <p id="my-name"><a href="about.html">Ralph Johnson</a></p>
+
       <div id="links">
+        <p id="cv-link"><a href="iframe_landing/vizualize_me_i.html" title="Ralph Johnson's infographic CV on vizualize.me" >Resume</a></p>
         <p id="portLink"><a href="portfolio.html">Portfolio</a></p>
         <p id="about"><a href="about.html">About</a></p>
         <p id="contact"><a href="contact.html">Contact</a></p>
       </div>
     </nav>
+
   </div>
-  <div id="top-body"></div>
 
-	<div class="container" id="portfolio" style="margin-top: 10%">
-			<h1 id="code-wrangled">Code Wrangled</h1><a href="#over-music"><span id="point-down">(Notes down yonder ...)<img src="images/hand-clear-pointer-down.png"/></span></a>
-			<div class="portfolio-items">
-				<h4>spot-ON merchandising</h4>
-				<p>An in-house merchandising-company portal for managing schedules,time reporting, and communications for independent contractors
-				and administrative office personnel. The app is not public, but intended for internal use within a merchandising company,
-				utilizing separate logins and views for admins and contractors.</p>
-				<div >
-          <a href="spot_on.html">
-					<img src="images/spot-ON-splash.png" class="screenshot"/></a>
-				</div>
-				<p><strong>Technologies used: HTML(.erb), CSS, Ruby on Rails, jQuery.js, PostgreSQL</strong></p>
-				<p><strong><a href="spot_on.html">More info, & link to the Live Site</a></strong></p>
-			</div>
+    <div class="parallax-portfolio" style="margin-top:-60px;" data-parallax="scroll"
+          data-image-src="images/skyscraper.jpg"
+          data-position="top" data-bleed="10"
+          data-natural-width="1942"
+          data-natural-height="2913"
+          data-speed="0.1">
+      <div id="top-body"></div>
 
-				<hr/>
+    <div class="container" id="portfolio" style="margin-top: 10%">
+      <div id="top-title">
+        <h1 id="code-wrangled">Code Wrangled</h1>
+        <a href="#over-music">
+          <span id="point-down">(Notes down yonder ...)<img src="images/hand-clear-pointer-down.png"/></span>
+        </a>
+      </div>
 
-			<div class="portfolio-items">
-				<h4>UpgrAID</h4>
-				<p>An online support community for our self-improvement quests--using posts to groups, comments, personal messaging and live chatrooms to connect
-					users with similar goals. The app uses an algorithm based on user input and keywords to automatically match users with groups based on their goals.
-					Badges are awarded for various achievements and for helping others to achieve theirs. This was
-					the final project for The Iron Yard (October 2015 Front-End Engineering Cohort)</p>
-					<div >
-						<a href"iframe_landing/upgraid_i.html">
-              <img src="images/upgraid-splash.png" class="screenshot"/></a>
-					</div>
-				<p><strong>Technologies used: HTML/CSS, React.js, Backbone.js, jQuery.js, Python, Django, PostgreSQL</strong></p>
-				<span><strong><a href"iframe_landing/upgraid_i.html" class="refLinks">Web Site</a>
-          <a href="https://github.com/UpgrAID/Upgraid_frontend" class="refLinks">Github</a></strong></span>
-			</div>
+  			<div class="portfolio-items" id="spot-on"
+          data-150-top="opacity:0; transform:scale(0);"
+          data-50-top="opacity:1; transform:scale(1); "
+          data-anchor-target="#code-wrangled"
+        >
+  				<h4>spot-ON merchandising</h4>
+  				<p>An in-house merchandising-company portal for managing schedules,time reporting, and communications for independent contractors
+  				and administrative office personnel. The app is not public, but intended for internal use within a merchandising company,
+  				utilizing separate logins and views for admins and contractors.</p>
+  				<div >
+            <a href="spot_on.html">
+  					<img src="images/spot-ON-splash.png" class="screenshot"/></a>
+  				</div>
+  				<p><strong>Technologies used: HTML(.erb), CSS, Ruby on Rails, jQuery.js, PostgreSQL</strong></p>
+  				<p><strong><a href="spot_on.html">More info, & link to the Live Site</a></strong></p>
+  			</div>
 
-				<hr/>
+  				<hr/>
 
-			<div class="portfolio-items">
-				<h4>Piccoli Morsi</h4>
-				<p>Online menu for an imaginary Italian bistro that caters to dog owners, allowing them to bring their pets along,
-				and offering dishes on the menu especially for their four-footed friends. This was the first group project
-				for The Iron Yard (October 2015 Front-End Engineering Cohort)</p>
-					<div >
-						<a href"iframe_landing/piccoli_i.html">
-              <img src="images/Piccoli-Morsi-splash.png" class="screenshot"/></a>
-					</div>
-					<p><strong>Technologies used: HTML/CSS, jQuery.js, Mustache.js, JSON api</strong></p>
-					<p><strong><a href"iframe_landing/piccoli_i.html" class="refLinks">Web Site</a>
-              <a href="https://github.com/mychelleblake/PiccoliMorsi" class="refLinks">Github</a></strong></p>
-			</div>
-				<hr/>
+  			<div class="portfolio-items" id="upgraid"
+          data--250-top="opacity:0; transform:scale(0);"
+          data--400-top="opacity:1; transform:scale(1); "
+          data-anchor-target="#spot-on">
+  				<h4>UpgrAID</h4>
+  				<p>An online support community for our self-improvement quests--using posts to groups, comments, personal messaging and live chatrooms to connect
+  					users with similar goals. The app uses an algorithm based on user input and keywords to automatically match users with groups based on their goals.
+  					Badges are awarded for various achievements and for helping others to achieve theirs. This was
+  					the final project for The Iron Yard (October 2015 Front-End Engineering Cohort)</p>
+  					<div >
+  						<a href="iframe_landing/upgraid_i.html">
+                <img src="images/upgraid-splash.png" class="screenshot"/></a>
+  					</div>
+  				<p><strong>Technologies used: HTML/CSS, React.js, Backbone.js, jQuery.js, Python, Django, PostgreSQL</strong></p>
+  				<span><strong><a href="iframe_landing/upgraid_i.html" class="refLinks">Web Site</a>
+            <a href="https://github.com/UpgrAID/Upgraid_frontend" target="_blank" class="refLinks">Github</a></strong></span>
+  			</div>
 
-      <div class="portfolio-items">
-				<h4>Name That Toon!</h4>
-				<p>Just for fun! A quiz game mixing images of cartoon characters and
-          audio files of cartoon theme songs, selected randomly. Images and audio are served
-          via links to various cartoon fan sites. Won 2nd prize at The Iron Yard hackathon!</p>
-				<div >
-					<a href"iframe_landing/name_that_toon_i.html">
-            <img src="images/name-that-toon.png" class="screenshot"/></a>
-				</div>
-				<p><strong>Technologies used: HTML/CSS, React.js, Backbone.js, web scraping</strong></p>
-				<p><strong><a href"iframe_landing/name_that_toon_i.html" class="refLinks">Web Site</a>
-            <a href="https://github.com/notewrangler/tiy-hackathon-game" class="refLinks">Github</a></strong></p>
-			</div>
-			<hr/>
+  				<hr/>
+
+  			<div class="portfolio-items" id="piccoli"
+          data--250-top="opacity:0; transform:scale(0);"
+          data--400-top="opacity:1; transform:scale(1); "
+          data-anchor-target="#upgraid">
+  				<h4>Piccoli Morsi</h4>
+  				<p>Online menu for an imaginary Italian bistro that caters to dog owners, allowing them to bring their pets along,
+  				and offering dishes on the menu especially for their four-footed friends. This was the first group project
+  				for The Iron Yard (October 2015 Front-End Engineering Cohort)</p>
+  					<div >
+  						<a href="iframe_landing/piccoli_i.html">
+                <img src="images/Piccoli-Morsi-splash.png" class="screenshot"/></a>
+  					</div>
+  					<p><strong>Technologies used: HTML/CSS, jQuery.js, Mustache.js, JSON api</strong></p>
+  					<p><strong><a href="iframe_landing/piccoli_i.html" class="refLinks">Web Site</a>
+                <a href="https://github.com/mychelleblake/PiccoliMorsi" target="_blank" class="refLinks">Github</a></strong></p>
+  			</div>
+  				<hr/>
+
+        <div class="portfolio-items" id="toon"
+          data--250-top="opacity:0; transform:scale(0);"
+          data--400-top="opacity:1; transform:scale(1); "
+          data-anchor-target="#piccoli">
+  				<h4>Name That Toon!</h4>
+  				<p>Just for fun! A quiz game mixing images of cartoon characters and
+            audio files of cartoon theme songs, selected randomly. Images and audio are served
+            via links to various cartoon fan sites. Won 2nd prize at The Iron Yard hackathon!</p>
+  				<div >
+  					<a href="iframe_landing/name_that_toon_i.html">
+              <img src="images/name-that-toon.png" class="screenshot"/></a>
+  				</div>
+  				<p><strong>Technologies used: HTML/CSS, React.js, Backbone.js, web scraping</strong></p>
+  				<p><strong><a href="iframe_landing/name_that_toon_i.html" class="refLinks">Web Site</a>
+              <a href="https://github.com/notewrangler/tiy-hackathon-game" target="_blank" class="refLinks">Github</a></strong></p>
+  			</div>
+  			<hr/>
 
 
-			<div class="portfolio-items">
-				<h4>Hit Me Up!</h4>
-				<p>A Simple contact list utilizing a remote database</p>
-				<div >
-					<a href"iframe_landing/hit_me_up_i.html">
-            <img src="images/hit-me-up.png" class="screenshot"/></a>
-				</div>
-				<p><strong>Technologies used: HTML/CSS, jQuery.js, Mustache.js, AJAX, Parse.com (cloud db)</strong></p>
-				<p><strong><a href"iframe_landing/hit_me_up_i.html" class="refLinks">Web Site</a>
-            <a href="https://github.com/notewrangler/Assignment-19" class="refLinks">Github</a></strong></p>
-			</div>
-			<hr/>
+  			<div class="portfolio-items" id="hit-me"
+          data--250-top="opacity:0; transform:scale(0);"
+          data--400-top="opacity:1; transform:scale(1); "
+          data-anchor-target="#toon">
+  				<h4>Hit Me Up!</h4>
+  				<p>A Simple contact list utilizing a remote database</p>
+  				<div >
+  					<a href="iframe_landing/hit_me_up_i.html">
+              <img src="images/hit-me-up.png" class="screenshot"/></a>
+  				</div>
+  				<p><strong>Technologies used: HTML/CSS, jQuery.js, Mustache.js, AJAX, Parse.com (cloud db)</strong></p>
+  				<p><strong><a href="iframe_landing/hit_me_up_i.html" class="refLinks">Web Site</a>
+              <a href="https://github.com/notewrangler/Assignment-19" target="_blank" class="refLinks">Github</a></strong></p>
+  			</div>
+  			<hr/>
 
 
-			<div class="portfolio-items">
-				<h4>WeThePeople</h4>
-				<p>An assignment to create a landing page for a website. The blue button opens a modal iFrame, containing
-				a short story published on a science fiction website. Custom CSS tweaks keep the blue-grey text & the modal button
-        inside the white flag stripe at all viewport widths.</p>
-				<div >
-					<a href"iframe_landing/we_the_people_i.html">
-            <img src="images/wtp-splash.png" class="screenshot"/></a>
-				</div>
-				<p><strong>Technologies used: HTML/CSS, Bootstrap </strong></p>
-				<p><strong><a href"iframe_landing/we_the_people_i.html">View the Landing Page online</a></strong></p>
-			</div>
-      <div id="over-music"><a name="music"></a></div>
-			<hr/>
+  			<div class="portfolio-items" id="we-the-people"
+          data--250-top="opacity:0; transform:scale(0);"
+          data--400-top="opacity:1; transform:scale(1); "
+          data-anchor-target="#hit-me">
+  				<h4>WeThePeople</h4>
+  				<p>An assignment to create a landing page for a website. The blue button opens a modal iFrame, containing
+  				a short story published on a science fiction website. Custom CSS tweaks keep the blue-grey text & the modal button
+          inside the white flag stripe at all viewport widths.</p>
+  				<div >
+  					<a href="iframe_landing/we_the_people_i.html">
+              <img src="images/wtp-splash.png" class="screenshot"/></a>
+  				</div>
+  				<p><strong>Technologies used: HTML/CSS, Bootstrap </strong></p>
+  				<p><strong><a href="iframe_landing/we_the_people_i.html">View the Landing Page online</a></strong></p>
+  			</div>
+        <div id="over-music"><a name="music"></a></div>
+  			<hr/>
+        <div id="notewrangler">
+          <h1 id="notes-wrangled">Notes Wrangled</h1><a href="#top-body"><span id="point-up">(Code That-a-way...)<img src="images/hand-clear-pointer-up.png"/></span></a>
+        </div>
 
-      <h1 id="notes-wrangled">Notes Wrangled</h1><a href="#top-body"><span id="point-up">(Code That-a-way...)<img src="images/hand-clear-pointer-up.png"/></span></a>
-			<div class="portfolio-items">
-				<h4>Wave Mechanics Union - Further to Fly (2012)</h4>
-				<p>The long-awaited second album from Wave Mechanics Union!
-					Here are graceful and sophisticated jazz retellings of rock, prog, and pop classics as spun by an orchestra
-					of 30 musicians. Vocalist Lydia McAdams and a large collection of talented instrumentalists are joined
-					on two tracks by special guest Jon Anderson (the voice of Yes).
-					The striking arrangements, penned by Ryan Fraley and Ralph Johnson, show a deep love for both the source
-					material and the conventions of modern jazz orchestration. A surprising and eclectic group of songs from
-					Paul Simon, Ben Folds, Suzanne Vega, Yes, King Crimson, Thomas Dolby,
-					Gentle Giant, Tom Waits, Jimi Hendrix, Fiona Apple, Dire Straits, Steely Dan, and Queen.
-					The closing track, "The Show Must Go On" was chosen by an internet poll in 2009.
-				</p>
-				<div>
-					<a href="iframe_landing/wave_mechanics_i.html">
-            <img src="images/ftf_art.jpg" class="cd_cover"/></a>
-				</div>
-				<p><strong>Technologies used: Finale, ProTools, Alesis ADAT HD24, Actual musical instruments played by humans. </strong></p>
-				<p><strong><a href"iframe_landing/wave_mechanics_i.html">Wave Mechanics Union Web Site</a></strong></p>
-			</div>
-			<hr/>
+  			<div class="portfolio-items" id="ftf"
+          data--350-top="opacity:0; transform:scale(0);"
+          data--500-top="opacity:1; transform:scale(1); "
+          data-anchor-target="#we-the-people">
+  				<h4>Wave Mechanics Union - Further to Fly (2012)</h4>
+  				<p>The long-awaited second album from Wave Mechanics Union!
+  					Here are graceful and sophisticated jazz retellings of rock, prog, and pop classics as spun by an orchestra
+  					of 30 musicians. Vocalist Lydia McAdams and a large collection of talented instrumentalists are joined
+  					on two tracks by special guest Jon Anderson (the voice of Yes).
+  					The striking arrangements, penned by Ryan Fraley and Ralph Johnson, show a deep love for both the source
+  					material and the conventions of modern jazz orchestration. A surprising and eclectic group of songs from
+  					Paul Simon, Ben Folds, Suzanne Vega, Yes, King Crimson, Thomas Dolby,
+  					Gentle Giant, Tom Waits, Jimi Hendrix, Fiona Apple, Dire Straits, Steely Dan, and Queen.
+  					The closing track, "The Show Must Go On" was chosen by an internet poll in 2009.
+  				</p>
+  				<div>
+  					<a href="iframe_landing/wave_mechanics_i.html">
+              <img src="images/ftf_art.jpg" class="cd_cover"/></a>
+  				</div>
+  				<p><strong>Technologies used: Finale, ProTools, Alesis ADAT HD24, Actual musical instruments played by humans. </strong></p>
+  				<p><strong><a href="iframe_landing/wave_mechanics_i.html">Wave Mechanics Union Web Site</a></strong></p>
+  			</div>
+  			<hr/>
 
-			<div class="portfolio-items">
-				<h4>Wave Mechanics Union - Second Season (2008))</h4>
-				<p>The debut CD, Second Season, features progressive and classic rock masterworks reimagined as jazz.
-					 Supported by a full-scale jazz orchestra, vocalist Lydia McAdams performs repertoire from Yes, Rush,
-					 The Who, Pink Floyd, King Crimson, The Police, Led Zeppelin, and more.
-					 Arrangements by Ryan Fraley and Ralph Johnson. A stylish love letter to both the jazz idiom
-				   and the layered density of progressive rock.
-				</p>
-				<div>
-					<a href="wave_mechanics_i.html ">
-            <img src="images/ss_art.jpg" class="cd_cover"/></a>
-				</div>
-				<p><strong>Technologies used: Finale, ProTools, Alesis ADAT HD24, Acoustic instruments moving air. </strong></p>
-				<p><strong><a href="wave_mechanics_i.html">Wave Mechanics Union Web Site</a></strong></p>
-			</div>
-			<hr/>
+  			<div class="portfolio-items" id="season"
+          data--350-top="opacity:0; transform:scale(0);"
+          data--500-top="opacity:1; transform:scale(1); "
+          data-anchor-target="#ftf">
+  				<h4>Wave Mechanics Union - Second Season (2008)</h4>
+  				<p>The debut CD, Second Season, features progressive and classic rock masterworks reimagined as jazz.
+  					 Supported by a full-scale jazz orchestra, vocalist Lydia McAdams performs repertoire from Yes, Rush,
+  					 The Who, Pink Floyd, King Crimson, The Police, Led Zeppelin, and more.
+  					 Arrangements by Ryan Fraley and Ralph Johnson. A stylish love letter to both the jazz idiom
+  				   and the layered density of progressive rock.
+  				</p>
+  				<div>
+  					<a href="iframe_landing/wave_mechanics_i.html ">
+              <img src="images/ss_art.jpg" class="cd_cover"/></a>
+  				</div>
+  				<p><strong>Technologies used: Finale, ProTools, Alesis ADAT HD24, Acoustic instruments moving air. </strong></p>
+  				<p><strong><a href="iframe_landing/wave_mechanics_i.html">Wave Mechanics Union Web Site</a></strong></p>
+  			</div>
+  			<hr/>
 
-      <div id="social">
-        <a href="https://www.facebook.com/ralph.johnson.notewrangler"><img src="images/social/1446098703_Facebook.png" class="social"/></a>
-        <a href="https://twitter.com/notewrangler" title="Follow Ralph on Twitter"><img src="images/social/1446098714_Twitter.png" class="social"/></a>
-        <a href="https://www.linkedin.com/in/ralph-johnson-411505b?trk=nav_responsive_tab_profile" title="Ralph's LinkedIn Profile"><img src="images/social/linkedin-icon2.png" class="social"/></a>
-        <a href="https://medium.com/@notewrangler" title="Read Ralph's Blog on Medium.com"><img src="images/social/blog.png" class="social"></a>
-        <a href="https://github.com/notewrangler" title="Visit Ralph's GitHub page"><img src="images/social/Github-icon.png"  class="social" id="git"/></a>
-        <a href="http://vizualize.me/notewrangler?r=notewrangler" title="Ralph Johnson's infographic CV on vizualize.me"><img id='vizualize' src='http://vizualize.me/media/img/socialicons/viewmyviz.png' /></a>
+        <div id="social">
+          <a href="https://www.facebook.com/ralph.johnson.notewrangler"><img src="images/social/1446098703_Facebook.png" class="social"/></a>
+          <a href="https://twitter.com/notewrangler" title="Follow Ralph on Twitter"><img src="images/social/1446098714_Twitter.png" class="social"/></a>
+          <a href="https://www.linkedin.com/in/ralph-johnson-411505b?trk=nav_responsive_tab_profile" title="Ralph's LinkedIn Profile"><img src="images/social/linkedin-icon2.png" class="social"/></a>
+          <a href="https://medium.com/@notewrangler" title="Read Ralph's Blog on Medium.com"><img src="images/social/blog.png" class="social"></a>
+          <a href="https://github.com/notewrangler" title="Visit Ralph's GitHub page"><img src="images/social/Github-icon.png"  class="social" id="git"/></a>
+          <a href="http://vizualize.me/notewrangler?r=notewrangler" title="Ralph Johnson's infographic CV on vizualize.me"><img id='vizualize' src='http://vizualize.me/media/img/socialicons/viewmyviz.png' /></a>
+        </div>
       </div>
 
 	</div>
+
 		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/skrollr.min.js"></script>
 	  <script src="js/main.js"></script>
 
 </body>

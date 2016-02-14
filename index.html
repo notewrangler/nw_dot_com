@@ -45,7 +45,7 @@
       <p id="my-name"><a href="about.html">Ralph Johnson</a></p>
 
       <div id="links">
-        <p id="cv-link"><a href="http://vizualize.me/notewrangler?r=notewrangler" title="Ralph Johnson's infographic CV on vizualize.me" target="_blank">Resume</a></p>
+        <p id="cv-link"><a href="iframe_landing/vizualize_me_i.html" title="Ralph Johnson's infographic CV on vizualize.me">Resume</a></p>
         <p id="portLink"><a href="portfolio.html">Portfolio</a></p>
         <p id="about"><a href="about.html">About</a></p>
         <p id="contact"><a href="contact.html">Contact</a></p>
@@ -61,18 +61,26 @@
         data-natural-height="1600"
         data-speed="0.2">
         <div class="container" id="main-page">
+          <div id="scroll-prompt">
+            <p>(scroll)</p>
+            <p><i class="fa fa-arrow-down"></i></p>
+          </div>
           <div class="row see">
             <div class="seven columns" style="margin-top: 20%">
             <div id="big-name-holder"
-                data-1400-start="margin-left: 0em;"
-                data-1450-start="margin-left: 12em;"
-                data-1600-start="margin-left: 17em;"
-                data-1750-start="margin-left: 40em;"
-                data-1900-start="margin-left: 60em;"
-                data-2200-start="margin-left: 60em;"
-                data-2500-start="margin-left: 14em;"
-                data-3200-start="margin-left: 14em;"
-                data-4200-start="margin-left: 0em;">
+                data-1400-start="opacity:1; margin-left: 0em;"
+                data-1450-start="opacity:1; margin-left: 12em;"
+                data-1600-start="opacity:1; margin-left: 17em;"
+                data-1750-start="opacity:1; margin-left: 40em;"
+                data-1900-start="opacity:1; margin-left: 60em;"
+                data-2200-start="opacity:1; margin-left: 60em;"
+                data-2500-start="opacity:1; margin-left: 14em;"
+                data-3200-start="opacity:1; margin-left: 14em;"
+                data-4200-start="opacity:1; margin-left: 0em;"
+                data-7580-start="opacity:1; margin-left: 0em;"
+                data-7581-start="opacity:0"
+                data-8245-start="opacity:0"
+                data-8251-start="opacity:1">
               <h1 id="big-name">Ralph Johnson</h1>
             </div>
 
@@ -140,7 +148,7 @@
     <div id="band-cds"
         data-2450-start="opacity: 0; transform:scale(0)"
         data-2700-start="opacity: 1; transform:scale(1)"
-        data-3000-start="opacity: 1"
+        data-3150-start="opacity: 1"
         data-3200-start="opacity:0">
 
         <ul id="cd-row">
@@ -201,45 +209,133 @@
       data-anchor-target="#grrr"
       >
         <h1>...learned...</h1>
-        <img src="images/iron-yard-logo.jpg"/>
+        <a href="https://www.theironyard.com/locations/las-vegas.html">
+          <img src="images/iron-yard-logo.png"/>
+        </a>
       </div>
-
-      <h5 class="language">HTML</h5>
-      <h5 class="language">CSS</h5>
-      <h5 class="language">Ruby on Rails</h5>
-      <h5 class="language">Javascript</h5>
-      <h5 class="language">jQuery</h5>
-      <h5 class="language">PhP</h5>
-      <h5 class="language">Mustache.js</h5>
-      <h5 class="language">Backbone.js</h5>
-      <h5 class="language">React.js</h5>
-      <h5 class="language">Reflux.js</h5>
-      <h5 class="language">Redux.js</h5>
-      <h5 class="language">parallax.js</h5>
-      <h3 class="language">...</h3>
-      <h3 class="language">...</h3>
-      <h5 class="language">...well...and skrollr.js...</h5>
-      <h5 class="language"id="sheepish">...as you can tell. :-)</h5>
-
+      <div id="hypertext"
+      data-250-top="opacity:0; transform:translate(100%)"
+      data-150-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#school">
+        <h3 class="language">HTML</h3>
+      </div>
+      <div id="cascade"
+      data-150top="opacity:0; transform:translate(100%)"
+      data-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#school">
+        <h3 class="language">CSS</h3>
+      </div>
+      <div id="r-o-r"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#hypertext">
+        <h3 class="language">Ruby on Rails</h3>
+      </div>
+      <div id="js"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#cascade">
+        <h3 class="language">Javascript</h3>
+      </div>
+      <div id="jq"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#r-o-r">
+        <h3 class="language">jQuery</h3>
+      </div>
+      <div id="ph"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#js">
+        <h3 class="language">PhP</h3>
+      </div>
+      <div id="mustache"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#jq">
+        <h3 class="language">Mustache.js</h3>
+      </div>
+      <div id="backB"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#ph">
+        <h3 class="language">Backbone.js</h3>
+      </div>
+      <div id="react"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#mustache">
+        <h3 class="language">React.js</h3>
+      </div>
+      <div id="reflux"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#backB">
+        <h3 class="language">Reflux.js</h3>
+      </div>
+      <div id="redux"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#react">
+        <h3 class="language">Redux.js</h3>
+      </div>
+      <div id="parallax"
+      data-320-top="opacity:0; transform:translate(100%)"
+      data-220-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#reflux">
+        <h3 class="language">parallax.js</h3>
+      </div>
+      <div id="skrollr"
+      data-100-top="opacity:0; transform:translate(100%)"
+      data-top="opacity:1; transform:translate(0%)"
+      data-anchor-target="#redux">
+        <h3 class="language">...well...and...skrollr.js...<span><img src="images/smiley-shy.png"</span></h3>
+      </div>
     </div>
+    <div id="bottom-row"
+      data-7400-start="opacity:1; transform:translate(-100%)"
+      data-7580-start="opacity:1; transform:translate(0%)">
+      <div class="container">
+        <div class="four columns bottom">
+          <h5>I'm psyched to hear about your project!</h5>
+          <h5>Let's chat.</h5>
+          <h5><i class="fa fa-envelope fa-lg"></i><a href="mailto:ralph@notewrangler.com"> ralph@notewrangler.com</a></h5>
+          <h5><i class="fa fa-phone-square fa-lg"></i><a href="tel:702-782-3271"> 702-782-3271</a></h5>
+          <a href="about.html"><img src="images/IronYard-twenty.jpg" id="me-small" /></a>
+        </div>
+        <div class="four columns bottom">
+          <h5>...or you can Wrangle up a note...</h5>
+            <form id="mailform" action="http://formspree.io/noiseartist@gmail.com" method="POST">
+              <input type="text" name="sender-name" id="sender-name" placeholder="Your name"/><br>
+              <input type="text" name="_replyto" id="sender-email" placeholder="Your email"/><br>
+              <textarea name="message" id="message" placeholder="message" rows="10" cols="30"></textarea><br>
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_next" value="http://notewrangler.com/thanks.html" />
+              <input class="button-primary" type="submit" value="Send"/>
+            </form>
+        </div>
+        <div class="four columns bottom">
+            <h5><a href="portfolio.html">Check out some of my work here!</a></h5>
+            <a href="portfolio.html" ><img src="images/upgraid-splash.png" class="bottom-photo"/></a><br>
+            <a href="portfolio.html" ><img src="images/spot-ON-splash.png" class="bottom-photo"/></a>
+        </div>
+
+
+    </div><!-- end of "bottom-row" -->
+
+    
+
 
 
 </div><!-- <end of "parallax-window"> -->
 
-  <!-- data-3800-start="opacity:0; transform:translate(100%);"
-  date-4000-start="opacity:1; transform:translate(0%);"> -->
 
 
 
 
 
 
-              <!-- <img src="images/teclado.jpg" id="code-keys" />
-              <img src="images/revue-music-awards-6.jpg" id="drum" />
-              <img src="images/third-stone-screen.jpg" id="dots" />
-              <img src="images/upgraid-redux.png" id="react" /> -->
 
-  <!-- </div> <!-- end of 'slider' -->
     <div id="social">
       <a href="https://www.facebook.com/ralph.johnson.notewrangler" target="_blank"><img src="images/social/1446098703_Facebook.png" class="social"/></a>
       <a href="https://twitter.com/notewrangler" title="Follow Ralph on Twitter" target="_blank"><img src="images/social/1446098714_Twitter.png" class="social"/></a>
