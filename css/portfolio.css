@@ -1,7 +1,33 @@
-#top-body {
-  margin-bottom: 40px;
+
+
+.parallax-portfolio {
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
+	min-height: 9500px;
+	opacity: 0.99;
+  z-index: 1;
+  color: #fff;
+
+}
+#top-title {
+  padding-top: 5em;
+}
+.portfolio-items {
+  margin-top: 5em;
+  padding: 3em;
+  background: #800080;
+  color: 	#FFFFF0;
+  border-radius: 2%;
+
 }
 
+.portfolio-items img {
+  opacity:1;
+}
+.portfolio-items a {
+  z-index: 50;
+}
 
  #portfolio  {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -26,7 +52,6 @@
   padding-bottom: 50px;
 }
 #notes-wrangled a {
-
   text-decoration: none;
   color: inherit;
 }
@@ -42,6 +67,11 @@
   height: 60px;
   margin-bottom: -15px;
 }
+#notewrangler {
+  background: #EA10D4;
+  padding: 2em;
+  border-radius: 2%;
+}
 #notes-wrangled {
   display: inline-block;
   margin-right: 25px;
@@ -56,18 +86,19 @@
 }
 .refLinks {
   margin-right: 20px;
+  z-index: 6;
 }
 .screenshot {
 	width: 680px;
 	height: 400px;
-  -moz-box-shadow: 10px 10px 5px #888;
+  /*-moz-box-shadow: 10px 10px 5px #888;
   -webkit-box-shadow: 10px 10px 5px #888;
-  box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 10px 5px #888;*/
 }
 .cd_cover {
 	width: 680px;
 	/*height: 445px;*/
-  -moz-box-shadow: 10px 10px 5px #888;
+  /*-moz-box-shadow: 10px 10px 5px #888;
   -webkit-box-shadow: 10px 10px 5px #888;
-  box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 10px 5px #888;*/
 }

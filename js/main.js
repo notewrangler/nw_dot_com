@@ -2,13 +2,16 @@ $('document').ready(function(){
 
 	var s = skrollr.init({
 		forceHeight: false,
-		// constants: {
-		// 	box: 150p;
-		// }
+
 	});
 	$('parallax-window').parallax({
 		naturalWidth: 1200,
 		naturalHeight: 1600
+	});
+
+	$('parallax-portfolio').parallax({
+		naturalWidth: 1942,
+		naturalHeight: 2913
 	});
 
 	$(window).trigger('resize').trigger('scroll');
